@@ -9,12 +9,17 @@
 		</view>
 	</view>
 	<view class="yuyue">
-		<image mode="aspectFill" src="https://diancan-1252107261.cos.ap-chengdu.myqcloud.com/tianqi/tianqi-top.png">
+		<image mode="aspectFill" src="https://diancan-1252107261.cos.accelerate.myqcloud.com/yiliao/nav-yiyu.png">
 		</image>
 	</view>
-	<view style="height:1000px">
-
-	</view>
+	<!-- 疫苗预约 -->
+	
+	<!-- 挂号和体检 -->
+	
+	<!-- 热门挂号 -->
+	
+	<!-- 健康自测 -->
+	
 </template>
 
 <script setup lang="ts">
@@ -66,11 +71,10 @@
 		font-weight: bold;
 		font-size: 35rpx;
 	}
-	
-	.yuyue image{
-	  width: 100%;
-	  display: block;
-	  height: 700rpx;
+
+	.yuyue image {
+		width: 100%;
+		display: block;
+		height: 600rpx;
 	}
-	
 </style>
