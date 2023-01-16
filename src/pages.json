@@ -1,0 +1,68 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"navigationBarBackgroundColor": "#F8F8F8",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/registered/index",
+			"style": {
+				"navigationBarTitleText": "挂号"
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "医师课堂"
+			}
+		},
+		{
+			"path": "pages/mine/index",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#3cc51F",
+		"backgroundColor": "#FFFFFF",
+		"borderStyle": "black",
+		"list":[
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/tab/shouye-001.png",
+				"selectedIconPath": "static/tab/shouye-002.png"
+			},
+			{
+				"pagePath": "pages/registered/index",
+				"text": "挂号",
+				"iconPath": "static/tab/guahao-001.png",
+				"selectedIconPath": "static/tab/guahao-002.png"
+			},
+			{
+				"pagePath": "pages/video/index",
+				"text": "医师课堂",
+				"iconPath": "static/tab/shipin-001.png",
+				"selectedIconPath": "static/tab/shipin-002.png"
+			},
+			{
+				"pagePath": "pages/mine/index",
+				"text": "我的",
+				"iconPath": "static/tab/wode-001.png",
+				"selectedIconPath": "static/tab/wode-002.png"
+			}
+		]
+	}
+}
