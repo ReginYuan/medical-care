@@ -31,3 +31,14 @@ export interface Registered {
 	image: string
 	title: string
 }
+
+//首页第三项数据：健康自测
+
+export interface Selftest {
+	describe: string
+	image: string
+	minute: number
+	name: string
+	number_of_people: number
+	question: number
+}
