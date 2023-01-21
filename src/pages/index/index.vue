@@ -44,7 +44,23 @@
 		</view>
 	</view>
 	<!-- 健康自测 -->
-
+	<view class="online-title">
+		<view>
+			健康自测
+		</view>
+	</view>
+	<view class="self-test">
+		<view class="self-test-top self-test-flex self-test-one self-test-back">
+			<view class="self-test-view">
+				<text></text>
+				<text></text>
+				<view class="">
+					<text></text>
+					<text></text>
+				</view>
+			</view>
+		</view>
+	</view>
 </template>
 
 <script setup lang="ts">
