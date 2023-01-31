@@ -32,7 +32,7 @@ export interface Registered {
 	title: string
 }
 
-//首页第三项数据：健康自测
+//首页第四项数据：健康自测
 
 export interface Selftest {
 	describe: string

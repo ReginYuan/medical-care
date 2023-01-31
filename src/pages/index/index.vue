@@ -44,6 +44,47 @@
 		</view>
 	</view>
 	<!-- 健康自测 -->
+	<view class="online-title">
+		<view>健康自测</view>
+	</view>
+	<view class="self-test" v-if="selftest.length>0">
+		<view class="sele-test-top sele-test-flex sele-test-one sele-test-back" v-for="(item,index) in [selftest[0]]"
+			:key="index">
+			<view class="sele-test-view">
+				<view class="top-title">
+					{{item.name}}
+				</view>
+				<text class="top-lable top-min">
+					{{item.question}} 题 / {{item.minute}} 分钟
+				</text>
+				<view class="top-people">
+					<text class="top-num">
+						{{item.number_of_people}}
+					</text>
+					<text class="top-min top-lable">人测过</text>
+				</view>
+			</view>
+			<image class="top-img" :src="item.image"></image>
+		</view>
+		<view class="sele-test-top sele-test-flex sele-test-back" v-for="(item,index) in selftest.slice(1)"
+			:key="index">
+			<view class="sele-test-view">
+				<view class="top-title">
+					{{item.name}}
+				</view>
+				<text class="top-lable top-min">
+					{{item.question}} 题 / {{item.minute}} 分钟
+				</text>
+				<view class="top-people">
+					<text class="top-num">
+						{{item.number_of_people}}
+					</text>
+					<text class="top-min top-lable">人测过</text>
+				</view>
+			</view>
+			<image class="top-img bottom-img" :src="item.image"></image>
+		</view>
+	</view>
 
 </template>
 
