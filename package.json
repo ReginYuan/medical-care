@@ -50,6 +50,7 @@
     "@dcloudio/uni-quickapp-webview": "3.0.0-alpha-3061420221216001",
     "@jridgewell/sourcemap-codec": "^1.4.14",
     "js-base64": "^3.7.4",
+    "pnpm": "^7.25.1",
     "postcss": "8.1.0",
     "uview-plus": "^3.1.20",
     "vue": "^3.2.45",
